@@ -13,8 +13,14 @@ clean-targets:         # directories to be removed by `dbt clean`
   - "target"
   - "dbt_packages"
 
-models:
+#models:
+#  ga4:
+#    +materialized: view
+#    marts:
+#      +materialized: table
+vars:
   ga4:
-    +materialized: view
-    marts:
-      +materialized: table
+    project: "ga4-bigquery-412121"
+    dataset: "analytics_261064067"
+    start_date: "20240123" # Earliest date to load
+    frequency: "daily+streaming" # daily|streaming|daily+streaming. See 'Export Frequency' below. 
