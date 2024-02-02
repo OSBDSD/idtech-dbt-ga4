@@ -1,5 +1,5 @@
-name: 'ga4'
-version: '6.0.0'
+name: "ga4"
+version: "6.0.0"
 config-version: 2
 model-paths: ["models"]
 analysis-paths: ["analyses"]
@@ -8,8 +8,8 @@ seed-paths: ["seeds"]
 macro-paths: ["macros"]
 snapshot-paths: ["snapshots"]
 
-target-path: "target"  # directory which will store compiled SQL files
-clean-targets:         # directories to be removed by `dbt clean`
+target-path: "target" # directory which will store compiled SQL files
+clean-targets: # directories to be removed by `dbt clean`
   - "target"
   - "dbt_packages"
 
@@ -20,7 +20,9 @@ clean-targets:         # directories to be removed by `dbt clean`
 #      +materialized: table
 vars:
   ga4:
-    project: "ga4-bigquery-412121"
-    dataset: "analytics_261064067"
+    source_project: "ga4-bigquery-412121"
+    source_dataset: "analytics_261064067"
+    property_ids: [261064067] # Array of properties to process
     start_date: "20240123" # Earliest date to load
-    frequency: "daily+streaming" # daily|streaming|daily+streaming. See 'Export Frequency' below. 
+    frequency: "daily+streaming" # daily|streaming|daily+streaming. See 'Export Frequency' below.
+    static_incremental_days: 3 # Number of days to scan and reprocess on each run
