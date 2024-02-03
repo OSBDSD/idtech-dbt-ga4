@@ -26,3 +26,5 @@ vars:
     start_date: "20240123" # Earliest date to load
     frequency: "daily+streaming" # daily|streaming|daily+streaming. See 'Export Frequency' below.
     static_incremental_days: 3 # Number of days to scan and reprocess on each run
+    conversion_events: ['purchase','blog_lead_gen','brochure_request_completion','gated_offer_leads','homepage_lead_gen','location_lead_gen','manual_conversion_BOOK_APPOINTMENT','program_lead_gen','purchase_ipc','purchase_opl','purchase_ota','purchase_vtc','quiz_completion','topic_lead_gen']
+
