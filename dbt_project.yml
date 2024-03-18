@@ -13,11 +13,19 @@ clean-targets: # directories to be removed by `dbt clean`
   - "target"
   - "dbt_packages"
 
+  
+
 #models:
 #  ga4:
 #    +materialized: view
 #    marts:
 #      +materialized: table
+
+models:
+  ga4:
+    GA4_analysis:
+      schema: GA4_analysis
+      +materialized: table
 vars:
   ga4:
     source_project: "ga4-bigquery-412121"
