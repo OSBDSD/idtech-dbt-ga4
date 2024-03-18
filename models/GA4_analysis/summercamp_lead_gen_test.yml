@@ -1,0 +1,5 @@
+version: 2
+
+models:  
+  - name: summercamp_lead_gen_test
+    description: obtain summercamp_lead_gen_test count

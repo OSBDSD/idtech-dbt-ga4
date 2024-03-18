@@ -1,0 +1,5 @@
+version: 2
+
+models:  
+  - name: regional_lead_gen
+    description: Base table 2 - obtain regional_lead_gen and summercamp_lead_gen_test event count per page_key

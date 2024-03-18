@@ -1,5 +1,5 @@
 version: 2
 
 models:  
-  - name: Traffic Group
-    description: create traffic group category
+  - name: landingpage_sessions_trafficsource_t2
+    description: Traffic Group - create traffic group category

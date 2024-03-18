@@ -1,5 +1,5 @@
 version: 2
 
 models:  
-  - name: summercamp_lead_gen_test_count and regional_lead_gen_count (exceptions)
-    description: convert event with null value to "0" to prevent calculation errors for both.
+  - name: landingpage_sessions_trafficsource_t5
+    description: summercamp_lead_gen_test_count and regional_lead_gen_count (exceptions) - convert event with null value to "0" to prevent calculation errors for both.

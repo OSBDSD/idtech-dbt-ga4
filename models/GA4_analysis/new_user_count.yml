@@ -1,0 +1,5 @@
+version: 2
+
+models:  
+  - name: new_user_count
+    description: Base table 1 - count new user per page_path per pt date.

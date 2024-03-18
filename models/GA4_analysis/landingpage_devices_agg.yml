@@ -1,5 +1,5 @@
 version: 2
 
 models:  
-  - name: Base table 6
-    description:  devices and operating system  (ouput table used in looker report)
+  - name: landingpage_devices_agg
+    description:  Base table 6 - devices and operating system  (ouput table used in looker report)

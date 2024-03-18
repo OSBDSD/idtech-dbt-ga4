@@ -1,5 +1,5 @@
 version: 2
 
 models:  
-  - name: reginal_lead_gen_count (exception)
-    description: merge event regional_lead_gen_count, because it isn't marked as conversion event in GA4. 
+  - name: landingpage_sessions_trafficsource_t3
+    description: reginal_lead_gen_count (exception) - merge event regional_lead_gen_count, because it isn't marked as conversion event in GA4. 

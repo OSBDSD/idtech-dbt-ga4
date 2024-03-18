@@ -53,3 +53,4 @@ from {{ ref("dim_ga4__sessions_daily") }} t1
 left join
     {{ ref("fct_ga4__sessions_daily") }} t2
     on t1.session_partition_key = t2.session_partition_key
+where t1.session_partition_date>=current_date()-365   

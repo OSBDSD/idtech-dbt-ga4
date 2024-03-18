@@ -1,5 +1,5 @@
 version: 2
 
 models:  
-  - name: Channel PM Monthly
+  - name: channelPM_monthly
     description: agg by month by landing_page_path, date, traffic_group, traffic_source  (ouput table userd in looker report)

@@ -1,5 +1,5 @@
 version: 2
 
 models:  
-  - name: Conversions
+  - name: conversions
     description: Events that are marked as conversions in GA4. They must be marked in order to work with the config in dbt_project.yml
