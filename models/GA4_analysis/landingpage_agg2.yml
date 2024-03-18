@@ -1,0 +1,5 @@
+version: 2
+
+models:  
+  - name: Landing Page Counts by User Type
+    description: merge landing page counts to new user count 

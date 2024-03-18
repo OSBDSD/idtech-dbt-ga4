@@ -1,0 +1,5 @@
+version: 2
+
+models:  
+  - name: Base table 6
+    description:  devices and operating system  (ouput table used in looker report)

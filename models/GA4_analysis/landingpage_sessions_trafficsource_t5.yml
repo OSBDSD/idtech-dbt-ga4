@@ -1,0 +1,5 @@
+version: 2
+
+models:  
+  - name: summercamp_lead_gen_test_count and regional_lead_gen_count (exceptions)
+    description: convert event with null value to "0" to prevent calculation errors for both.

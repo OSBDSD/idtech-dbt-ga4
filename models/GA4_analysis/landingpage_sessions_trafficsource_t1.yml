@@ -1,0 +1,5 @@
+version: 2
+
+models:  
+  - name: Base table 5
+    description: use table dim_ga4__sessions_daily and table fct_ga4_session_daily to gather session conversions and map traffic source (based on session_medium)

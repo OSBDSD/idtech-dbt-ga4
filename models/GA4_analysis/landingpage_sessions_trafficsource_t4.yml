@@ -1,0 +1,5 @@
+version: 2
+
+models:  
+  - name: summercamp_lead_gen_test_count (exception)
+    description: merge event summercamp_lead_gen_test_count, because it isn't marked as conversion event in GA4. 

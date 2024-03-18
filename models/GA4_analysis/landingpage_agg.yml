@@ -1,0 +1,5 @@
+version: 2
+
+models:  
+  - name: Conversions Agg1
+    description: merge with conversion events the landing page agg table (ouput table used in looker report)
