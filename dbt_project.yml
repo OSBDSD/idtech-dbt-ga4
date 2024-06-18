@@ -24,7 +24,7 @@ clean-targets: # directories to be removed by `dbt clean`
 models:
   ga4:
     GA4_analysis:
-      schema: GA4_analysis
+      schema: GA4_analysis_dev
       +materialized: table
 vars:
   ga4:

@@ -1,0 +1,5 @@
+version: 2
+
+models:  
+  - name: landing_page_session_agg
+    description: Merge UA historical data back to Dec 2019 with the most current GA4 data.

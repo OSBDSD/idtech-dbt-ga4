@@ -2,4 +2,4 @@ version: 2
 
 models:  
   - name: channelPM_monthly
-    description: agg by month by landing_page_path, date, traffic_group, traffic_source  (ouput table userd in looker report)
+    description: agg by month by landing_page_path, date, traffic_group, traffic_source  (ouput table userd in looker report). UPDATE 06/18/2024 Includes UA data start Dec 2019 

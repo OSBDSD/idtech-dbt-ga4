@@ -1,0 +1,5 @@
+version: 2
+
+models:  
+  - name: landingpage_session_agg_0
+    description: Landing / Session - Aggregate table by landing_page_path, date, traffic_group, traffic_source, by date  (output table used in looker report)
