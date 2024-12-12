@@ -9,8 +9,6 @@ select
         then 'Search'
         when contains_substr(t1.session_medium, 'email')
         then 'Email'
-        when contains_substr(t1.session_medium, 'none')
-        then 'Direct'
         when contains_substr(t1.session_medium, 'ocpm')
         then 'Social'
         when
@@ -23,7 +21,8 @@ select
             t1.session_medium like '%organic%'
             and t1.landing_page_path not like '%blog%'
         then 'SEO'
-        -- - when a.channelGrouping ='Direct'  then 'Direct'
+        when contains_substr(t1.session_medium, 'none')
+        then 'Direct'
         when
             not contains_substr(t1.session_medium, 'cpc')
             and not contains_substr(t1.session_medium, 'ocpm')
