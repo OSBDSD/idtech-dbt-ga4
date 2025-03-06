@@ -7,7 +7,7 @@ select
     sum(gated_offer_leads_count) as gated_offer_leads,
     sum(homepage_lead_gen_count) as homepage_lead_gen,
     sum(location_lead_gen_count) as location_lead_gen,
-    sum(summercamp_lead_gen_test_count_n) as summercamp_lead_gen_test,
+    summercamp_lead_gen_test_count_n as summercamp_lead_gen_test,
     sum(regional_lead_gen_count_n) as regional_lead_gen,
     sum(program_lead_gen_count) as program_lead_gen,
     sum(topic_lead_gen_count) as topic_lead_gen,
