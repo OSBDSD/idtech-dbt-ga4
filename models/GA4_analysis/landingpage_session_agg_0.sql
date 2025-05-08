@@ -25,6 +25,6 @@ sum(purchase_opl_count) as purchase_opl,
 sum(purchase_ota_count) as purchase_ota,
 sum(purchase_vtc_count) as purchase_vtc,
 (sum(blog_lead_gen_count+brochure_request_completion_count+gated_offer_leads_count+homepage_lead_gen_count+location_lead_gen_count
-+program_lead_gen_count+topic_lead_gen_count+quiz_completion_count)+summercamp_lead_gen_test_count_n+regional_lead_gen_count_n) as Leads
++program_lead_gen_count+topic_lead_gen_count+Quiz_Leads_count)+summercamp_lead_gen_test_count_n+regional_lead_gen_count_n) as Leads
 from {{ref("landingpage_sessions_trafficsource_t5")}} 
 group by all
